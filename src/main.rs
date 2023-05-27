@@ -186,7 +186,7 @@ fn create_cursor(
     ));
 
     let mut wind = window.get_single_mut().unwrap();
-    wind.cursor.grab_mode = CursorGrabMode::Locked;
+    // wind.cursor.grab_mode = CursorGrabMode::Locked;
     wind.cursor.visible = false;
 }
 
